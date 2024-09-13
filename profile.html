@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="author" content="Mohammad Shalati"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+		<title>Profile</title>
+
+		<!-- main css file -->
+		<link rel="stylesheet" href="css/main.css"/>
+
+		<!-- normalize file -->
+		<link rel="stylesheet" href="css/normalize.css"/>
+
+		<!-- webfonts file -->
+		<link rel="stylesheet" href="css/all.min.css"/>
+
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div class="page d-flex">
+			<div class="sidebar bg-white p-20 relative">
+				<h3 class="relative txt-c mt-0 m-20">Elzero</h3>
+				<ul>
+					<li>
+						<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+							<i class="fa-regular fa-chart-bar fa-fw"></i>
+							<span class="d-none-mobile">Dashbord</span>
+						</a>
+					</li>
+					<li>
+						<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+							<i class="fa-solid fa-gear fa-fw"></i>
+							<span class="d-none-mobile">Settings</span>
+						</a>
+					</li>
+					<li>
+						<a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+							<i class="fa-regular fa-user fa-fw"></i>
+							<span class="d-none-mobile">Profile</span>
+						</a>
+					</li>
+					<li>
+						<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+							<i class="fa-solid fa-diagram-project fa-fw"></i>
+							<span class="d-none-mobile">Projects</span>
+						</a>
+					</li>
+					<li>
+						<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="courses.html">
+							<i class="fa-solid fa-graduation-cap fa-fw"></i>
+							<span class="d-none-mobile">Coursers</span>
+						</a>
+					</li>
+					<li>
+						<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+							<i class="fa-regular fa-circle-user fa-fw"></i>
+							<span class="d-none-mobile">Friends</span>
+						</a>
+					</li>
+					<li>
+						<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+							<i class="fa-regular fa-file fa-fw"></i>
+							<span class="d-none-mobile">Files</span>
+						</a>
+					</li>
+					<li>
+						<a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+							<i class="fa-regular fa-credit-card fa-fw"></i>
+							<span class="d-none-mobile">Plans</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<!-- content -->
+			<div class="content w-full">
+				<!-- head -->
+				<div class="head bg-white p-15 between-flex">
+					<div class="search relative">
+						<input type="search" placeholder="search here" class="p-10"/>
+					</div>
+					<div class="icons d-flex align-center">
+						<span class="relative nofic">
+							<i class="fa-regular fa-bell fa-lg"></i>
+						</span>
+						<img src="images/avatar.png" alt=""/>
+					</div>
+				</div>
+				<h1 class="profile relative">Profile</h1>
+				<div class="prof-wrapper m-20">
+					<div class="prof-gen-info bg-white p-20 rad-10 d-flex">
+						<div class="side-a w-fit p-20 txt-c">
+							<img class="mb-20" src="images/avatar.png" alt=""/>
+							<h3 class="mb-20">Osama Elzero</h3>
+							<p class="mb-10 c-grey">Level 20</p>
+							<div class="prog mb-20 w-full rad-6"></div>
+							<div class="rate d-flex align-center space-between mb-20">
+								<i class="fa-solid fa-star c-orange fs-13"></i>
+								<i class="fa-solid fa-star c-orange fs-13"></i>
+								<i class="fa-solid fa-star c-orange fs-13"></i>
+								<i class="fa-solid fa-star c-orange fs-13"></i>
+								<i class="fa-solid fa-star c-orange fs-13"></i>
+							</div>
+							<p class="fs-13 c-grey">550 Rating</p>
+						</div>
+						<div class="side-b">
+							<div class="row d-flex p-20">
+								<div class="content">
+									<h4 class="c-grey mb-20">Genral Info</h4>
+									<div class="info d-grid">
+										<p class="fs-13 c-grey">Full Name:
+											<span class="fs-14">Osama Elzero</span>
+										</p>
+										<p class="fs-13 c-grey">Gender:
+											<span class="fs-14">Male</span>
+										</p>
+										<p class="fs-13 c-grey">Country:
+											<span class="fs-14">Egypt</span>
+										</p>
+										<label>
+											<input class="toggle-checkbox" type="checkbox"/>
+											<div class="toggle-switch"></div>
+										</label>
+									</div>
+								</div>
+								<div class="ws"></div>
+							</div>
+							<div class="row d-flex p-20">
+								<div class="content">
+									<h4 class="c-grey mb-20">Personal Information</h4>
+									<div class="info d-grid">
+										<p class="fs-13 c-grey">Email:
+											<span class="fs-14">o@nn.sa</span>
+										</p>
+										<p class="fs-13 c-grey">Phone:
+											<span class="fs-14">019123456789</span>
+										</p>
+										<p class="fs-13 c-grey">Date Of Birth:
+											<span class="fs-14">25/10/1982</span>
+										</p>
+										<label>
+											<input class="toggle-checkbox" type="checkbox"/>
+											<div class="toggle-switch"></div>
+										</label>
+									</div>
+								</div>
+								<div class="ws"></div>
+							</div>
+							<div class="row d-flex p-20">
+								<div class="content">
+									<h4 class="c-grey mb-20">Job Information</h4>
+									<div class="info d-grid">
+										<p class="fs-13 c-grey">Title:
+											<span class="fs-14"> Full Stack Developer</span>
+										</p>
+										<p class="fs-13 c-grey">Programming Language:
+											<span class="fs-14">Python</span>
+										</p>
+										<p class="fs-13 c-grey">Years Of Experience:
+											<span class="fs-14">+15</span>
+										</p>
+										<label>
+											<input class="toggle-checkbox" type="checkbox"/>
+											<div class="toggle-switch"></div>
+										</label>
+									</div>
+								</div>
+								<div class="ws"></div>
+							</div>
+							<div class="row d-flex p-20">
+								<div class="content">
+									<h4 class="c-grey mb-20">Billing Information</h4>
+									<div class="info d-grid">
+										<p class="fs-13 c-grey">Payment Method:
+											<span class="fs-14">Paypal</span>
+										</p>
+										<p class="fs-13 c-grey">Email:
+											<span class="fs-14">email@website.com</span>
+										</p>
+										<p class="fs-13 c-grey">Subscription:
+											<span class="fs-14">Monthly</span>
+										</p>
+										<label>
+											<input class="toggle-checkbox" type="checkbox"/>
+											<div class="toggle-switch"></div>
+										</label>
+									</div>
+								</div>
+								<div class="ws"></div>
+							</div>
+						</div>
+					</div>
+					<div class="skills bg-white p-20 rad-10">
+						<h2 class="mb-20">My Skills</h2>
+						<p class="c-grey mb-20">Complete Skills List</p>
+						<div class="row w-full d-flex">
+							<p class="w-fit bg-grey p-5 rad-6">HTML</p>
+							<p class="w-fit bg-grey p-5 rad-6">PugJs</p>
+							<p class="w-fit bg-grey p-5 rad-6">HAML</p>
+						</div>
+						<div class="row w-full d-flex">
+							<p class="w-fit bg-grey p-5 rad-6">CSS</p>
+							<p class="w-fit bg-grey p-5 rad-6">SASS</p>
+							<p class="w-fit bg-grey p-5 rad-6">Stylus</p>
+						</div>
+						<div class="row w-full d-flex">
+							<p class="w-fit bg-grey p-5 rad-6">Javascript</p>
+							<p class="w-fit bg-grey p-5 rad-6">Typescript</p>
+						</div>
+						<div class="row w-full d-flex">
+							<p class="w-fit bg-grey p-5 rad-6">Veujs</p>
+							<p class="w-fit bg-grey p-5 rad-6">ReactJs</p>
+						</div>
+						<div class="row w-full d-flex">
+							<p class="w-fit bg-grey p-5 rad-6">Jest</p>
+							<p class="w-fit bg-grey p-5 rad-6">Jasmine</p>
+						</div>
+						<div class="row w-full d-flex">
+							<p class="w-fit bg-grey p-5 rad-6">PHP</p>
+							<p class="w-fit bg-grey p-5 rad-6">Laravel</p>
+						</div>
+						<div class="row w-full d-flex">
+							<p class="w-fit bg-grey p-5 rad-6">Python</p>
+							<p class="w-fit bg-grey p-5 rad-6">Django</p>
+						</div>
+					</div>
+					<div class="activites bg-white rad-10 p-20">
+						<h2 class="mb-20">Latest Activites</h2>
+						<p class="c-grey mb-20">Latest Activities Done By The User</p>
+						<div class="row d-flex align-center space-between">
+							<div class="side-a d-flex align-center">
+								<img src="images/activity1.png" alt=""/>
+								<div class="text">
+									<h4 class="mb-10">Academy</h4>
+									<p class="c-grey">Got The PHP Certificate</p>
+								</div>
+							</div>
+							<div class="side-b">
+								<h4 class="mb-10">16:05</h4>
+								<p class="c-grey">Yesterday</p>
+							</div>
+						</div>
+						<div class="row d-flex align-center space-between">
+							<div class="side-a d-flex align-center">
+								<img src="images/activity2.png" alt=""/>
+								<div class="text">
+									<h4 class="mb-10">Store</h4>
+									<p class="c-grey">Bought The Mastering Python Course</p>
+								</div>
+							</div>
+							<div class="side-b">
+								<h4 class="mb-10">18:10</h4>
+								<p class="c-grey">Yesterday</p>
+							</div>
+						</div>
+						<div class="row d-flex align-center space-between">
+							<div class="side-a d-flex align-center">
+								<img src="images/activity3.png" alt=""/>
+								<div class="text">
+									<h4 class="mb-10">Badges</h4>
+									<p class="c-grey">Unlocked The 10 Skills Badge</p>
+								</div>
+							</div>
+							<div class="side-b">
+								<h4 class="mb-10">18:05</h4>
+								<p class="c-grey">Yesterday</p>
+							</div>
+						</div>
+						<div class="row d-flex align-center space-between">
+							<div class="side-a d-flex align-center">
+								<img src="images/activity4.png" alt=""/>
+								<div class="text">
+									<h4 class="mb-10">Store</h4>
+									<p class="c-grey">Bought The Typescript Coursee</p>
+								</div>
+							</div>
+							<div class="side-b">
+								<h4 class="mb-10">12:05</h4>
+								<p class="c-grey">Yesterday</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
